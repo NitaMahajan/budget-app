@@ -1,2 +1,2 @@
 # budget-app
-Vanilla js app to calculate budget
+Vanilla js app to calculate budget and add/remove/edit expenses
