@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="heading-section">BUDGET APP</div>
+            <div class="body-section">
+                <div class="input-section">
+                    <div id="error-budget" class="error-budget hidden">
+                        <span>Please enter a valid budget value!</span>
+                    </div>
+                    <div class="input-section-1">
+                        <form id="budget-form">
+                            <div><label for="budget">Please enter your budget</label></div>
+                            <div><input type="number" name="budget" id="budget-input"></div>
+                            <div><input type="submit" value="Calculate" class="btn-submit"></div>
+                        </form>
+                        
+                    </div>
+                    <div class="input-section-2">
+                        <form id="expense-form">
+                            <div><label for="expense-name">Please enter your expense</label></div>
+                            <div><input type="text" id="expense-name" name="expense-name"></div>
+                            <div><label for="expense-value">Please enter your expense value</label></div>
+                            <div><input type="text" id="expense-value" name="expense-value"></div>
+                            <div><input type="submit" value="Add Expense" class="btn-submit"></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="output-section">
+                    <div class="output-widget">
+                        <div class="widget">
+                            <div>BUDGET</div>
+                            <div><img src="assets/icons/budget.png" width="80px" height="80px"/></div>
+                            <div id="amount-budget" class="amount amount-budget"><span>$ 0</span></div>
+                        </div>
+                        <div class="widget">
+                            <div>EXPENSES</div>
+                            <div><img src="assets/icons/expense.png" width="80px" height="80px"/></div>
+                            <div class="amount amount-expenses"><span>$ 0</span></div>
+                        </div>
+                        <div class="widget">
+                            <div>BALANCE</div>
+                            <div><img src="assets/icons/balance.png" width="80px" height="80px"/></div>
+                            <div class="amount"><span>$ 0</span></div>
+                        </div>
+                    </div>
+                    <div class="output-listing">
+                        <div class="expense-title" id="expense-listing-title">
+                            <div>Expense Title</div>
+                        </div>
+                        <div class="expense-value" id="expense-listing-value">
+                            <div>Expense Value</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
