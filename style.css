@@ -1,0 +1,104 @@
+.container{
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    font-size: 16px;
+    height: 20px;
+    width: 60%;
+}
+.heading-section{
+    font-size: 30px;
+}
+.body-section{
+    margin-top: 40px;
+    display: inline-flex;
+    width:100%;
+    font-size: 18px;
+}
+.input-section{
+    width: 40%;
+}
+.input-section-1,.input-section-2{
+    width: 60%;
+    border-radius: 10px;
+}
+.input-section-1 div{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.input-section-2 div{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.input-section-1{
+    border: 2px solid green;
+}
+.input-section-2{
+    border: 2px solid red;
+    margin-top: 30px;
+}
+.output-section{
+    width: 60%;
+}
+.output-widget{
+    display: inline-flex;
+}
+.widget{
+    min-width: 200px;
+}
+.widget div{
+    margin-bottom: 20px;
+}
+.widget .amount{
+    font-size: 30px;
+    font-weight: 600;
+}
+.widget .amount-budget{
+    color: green;
+}
+.widget .amount-expenses{
+    color: red;
+}
+.btn-submit{
+    font-size: 16px;
+    background-color: white;
+    height: 30px;
+    border-radius: 10px;
+}
+.input-section-1 .btn-submit{
+    color: green;
+    border: 2px solid green;
+}
+.input-section-2 .btn-submit{
+    color: red;
+    border: 2px solid red;
+}
+.output-listing div{
+    display: inline-flex;
+}
+.output-listing .expense-title{
+    width: 40%;
+}
+.output-listing .expense-value{
+    width: 40%;
+}
+.hidden {
+    display: none !important;
+}
+.error-budget {
+    display: table;
+    border-radius: 10px;
+    height: 100px;
+    background-color: palevioletred;
+    opacity: 0.7;
+    width: 60%;
+    color: white;
+}
+.error-budget span{
+    display: table-cell;
+    vertical-align: middle;
+}
